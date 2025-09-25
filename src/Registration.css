@@ -1,0 +1,202 @@
+/* Registration Container */
+.flex {
+  display: flex;
+  margin-top: 50px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+/* Card Styling */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+/* Text Colors */
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.text-gray-900 {
+  color: #1a202c;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-green-500 {
+  color: #10b981;
+}
+
+.text-red-500 {
+  color: #f56565;
+}
+
+/* Heading */
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Error Message */
+.text-xs {
+  font-size: 0.75rem;
+}
+
+/* Input Fields */
+.w-full {
+  width: 100%;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.border {
+  border: 1px solid #e2e8f0;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+/* Button */
+.bg-blue-500 {
+  font-size: 18px;
+  color: #000000;
+  padding: 10px 20px;
+  background-color: #21cc1b;
+  margin: 0 20px;
+  cursor: pointer;
+  border: 4px solid #aa5409;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+}
+
+.hover\:bg-blue-600:hover {
+  color: #980002;
+  
+  border-radius: 50px;
+  background-color: #ffe6e6;
+  transform: scale(1.05);
+}
+
+.text-white {
+  color: Black;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.transition {
+  transition: all 0.2s ease;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Input Fields */
+input[type="text"], input[type="email"], input[type="password"], select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  color: #0ec50e; /* Darker text for readability */
+}
+
+/* Labels */
+label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #8a0303;
+}
+
+/* Box Shadow for the Registration Container */
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(165, 13, 13, 0);
+}
+
+/* Stronger Box Shadow for More Depth */
+.shadow-lg {
+  box-shadow: 0 6px 80px rgba(174, 26, 26, 0.15);
+}
+
+/* Even Stronger Box Shadow */
+.shadow-xl {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .max-w-md {
+      max-width: 100%;
+  }
+}
